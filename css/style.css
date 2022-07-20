@@ -26,7 +26,24 @@
     display: none;
     width: 80vw;
     height: 50vh;
+    position: relative;
     
+}
+
+.item h3{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.item p{
+    position: absolute;
+    top: 60px;
+    right: 25px;
+    text-shadow: 2px 2px 4px #000;
+    color: white;
+    text-align: right;
 }
 
 
